@@ -388,6 +388,20 @@ header video {
     color: blue;
 }
 
+@media only screen and (max-width: 1000px){
+    .cta h2{
+        padding: 1rem 3rem;
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (max-width: 650px){
+    .cta h2{
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+}
+
+
 /* footer */
 
 .footer {
